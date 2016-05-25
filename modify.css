@@ -1,0 +1,193 @@
+/***********PAGE 1**********/
+* {
+    padding: 1px;
+}
+.wrapper{
+    background: blue;
+    margin: 4px;
+    padding: 8;
+}
+body{
+    background-image: url(tires-stacked.png);
+}
+.masthead {
+    background-image:url(cover%20size.jpg);
+    position:static;
+    border: solid 5px;
+    max-width: 100%;
+    height: 315px;
+    z-index: 1;
+}
+.mainnav{
+    background-color: darkblue;
+    max-width: 100%;
+    margin: 10px;
+    height: ;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    text-align: ;
+    font-size: 29px;
+    list-style-type: ;
+    overflow: hidden;
+    background-color: #333999;
+}
+
+li {
+    list-style: none;
+    text-align: ;
+    display:inline;
+    margin: 12px;
+    float: left;
+}
+
+.phone{
+    width: 100px;
+    height: auto;
+    margin-left: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: yellow;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+ul li a:hover{
+    
+    color: whitesmoke;
+}
+
+a:hover:not(.active) {
+    background-color: #999fff;
+}
+
+.picsban{
+    margin: 4px;
+    padding: 0px;
+    text-align: center;
+    max-width: 100%;
+    height:auto;
+    border: 6px solid black;
+}
+
+.leftquote {
+    color: aqua;
+    float: left;
+    padding: 12px;
+    font-size: 18px;
+    background: #0000ff;
+    max-width: 35%;
+    height: auto;
+    margin-top: 3.5em;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    visibility: ;
+}
+h5 {
+    font-size: 19px;
+    float: right
+    
+}
+h3 {
+    color: burlywood;
+    font-size: 28px;
+    text-align: center;
+}
+
+/*.righty{
+    color: aqua;
+    padding: 4px;
+    float: right;
+    text-align: right
+    font-size: 18px;
+    max-width: 100%;
+    height: auto;
+    background: #0000ff;
+}*/
+
+.navleft {
+    float: right; 
+    width: 15%; 
+    
+} 
+
+.content{
+    margin: 12px;
+}
+.page {
+    border: 6px solid black;
+    text-align: right;
+    font-size: 24px;}
+.page p{
+    font-size: 25px;
+    font-family:sans-serif;
+    color: white;
+    padding: 8px;
+    margin: 12px;
+}
+.page h6 {
+    font-size: 25px; 
+    text-align: center;
+    color: #fffa2a;
+    margin: 12px;   
+}
+.lineup {
+    text-align: left;
+    -webkit-align-content: left;
+    -ms-flex-line-pack: left;
+    align-content: left;
+    max-width: 100%;
+    height: auto;
+    border: 4px solid black;
+    
+}
+.page p, p {
+    text-align: left;
+    color: ;
+}
+.clearfix {
+  overflow: auto;
+}
+
+/**********************************************/
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, b, u, i, center, ul, li
+ {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent; } 
+
+body {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a {
+  cursor: pointer;
+  text-decoration: none; }
+
+html, body {
+  height: 100%; }
+
+body {
+  overflow-x: ;
+  overflow-y: ; }
+
+
+html.device-mobile-optimized {
+    overflow-x: hidden}
+footer{
+    text-align: center;
+    font-size: 18px;
+}
